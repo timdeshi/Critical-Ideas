@@ -1,0 +1,15 @@
+# Program to add and subtract two numbers
+
+# Asking the user to input two numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Performing addition
+addition = num1 + num2
+
+# Performing subtraction
+subtraction = num1 - num2
+
+# Displaying the results
+print(f"The addition of {num1} and {num2} is: {addition}")
+print(f"The subtraction of {num2} from {num1} is: {subtraction}")
